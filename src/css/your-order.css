@@ -45,6 +45,7 @@
   font-size: 14px;
   line-height: 1.29;
   color: #fbfbfb;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -52,22 +53,13 @@
     font-size: 16px;
     line-height: 1.25;
     width: 640px;
+    margin-bottom: 50px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .your-order-text-block-paragraph {
     width: 742px;
-  }
-}
-
-.your-order-text-block {
-  margin-bottom: 40px;
-}
-
-@media only screen and (min-width: 768px) {
-  .your-order-text-block {
-    margin-bottom: 50px;
   }
 }
 
@@ -130,13 +122,6 @@
   }
 }
 
-.your-order-orderform-block-highlight {
-  color: #7a3145;
-}
-
-.your-order-orderform-block-highlight-second {
-  color: #576f35;
-}
 .your-order-orderform-block-form {
   display: flex;
   flex-direction: column;
