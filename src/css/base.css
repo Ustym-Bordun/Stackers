@@ -47,11 +47,11 @@ body {
 }
 
 .accent-bg-color {
-  border-color: #576f35;
+  background-color: #576f35;
 }
 
 .second-accent-bg-color {
-  border-color: #7a3145;
+  background-color: #7a3145;
 }
 
 .icon-burger-btn,
