@@ -1,16 +1,4 @@
 /* by Mykhailo Moiseiev */
-/* Your order section (container by default)*/
-.your-order-section {
-  background-color: #7a3145;
-  padding: 80px 0px;
-  font-family: 'Inter Tight', sans-serif;
-}
-@media only screen and (min-width: 768px) {
-  .your-order-section {
-    padding: 100px 0px;
-  }
-}
-
 /* Your order text info block */
 .your-order-text-block-header {
   font-weight: 600;
@@ -18,7 +6,6 @@
   line-height: 1.04;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
   margin-bottom: 29px;
 }
 
@@ -44,7 +31,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  color: #fbfbfb;
   margin-bottom: 40px;
 }
 
@@ -83,6 +69,12 @@
     flex-direction: row;
     gap: 24px;
   }
+
+  .your-order-orderform-block,
+  .your-order-linkform-block {
+    flex: 1;
+    width: calc(50% - 12px);
+  }
 }
 
 .your-order-orderform-block {
@@ -103,7 +95,6 @@
 @media only screen and (min-width: 1280px) {
   .your-order-orderform-block {
     padding: 50px;
-    width: 529px;
   }
 }
 .your-order-orderform-block-header {
@@ -112,7 +103,6 @@
   line-height: 1.08;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #141414;
   margin-bottom: 40px;
 }
 
@@ -133,7 +123,6 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: #141414;
 }
 
 @media only screen and (min-width: 768px) {
@@ -178,13 +167,11 @@
 .your-order-orderform-block-form-button {
   border-radius: 30px;
   padding: 16px 0px;
-  background: #576f35;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
   margin-top: 5px;
 }
 
@@ -200,7 +187,6 @@
 .your-order-linkform-block {
   border-radius: 30px;
   padding: 40px 20px;
-  background: #576f35;
   flex-shrink: 0;
 }
 @media only screen and (min-width: 768px) {
@@ -209,11 +195,7 @@
     padding: 50px;
   }
 }
-@media only screen and (min-width: 1280px) {
-  .your-order-linkform-block {
-    width: 527px;
-  }
-}
+
 .your-order-linkform-block-image {
   border-radius: 15px;
   margin-bottom: 20px;
@@ -224,14 +206,14 @@
 
 @media only screen and (min-width: 768px) {
   .your-order-linkform-block-image {
-    width: 528px;
+    width: 100%;
     margin-bottom: 50px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .your-order-linkform-block-image {
-    width: 427px;
+    width: 100%;
     height: 273px;
   }
 }
@@ -255,12 +237,10 @@
 
 .your-order-linkform-block-list li {
   display: inline;
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.08;
   letter-spacing: -0.01em;
-  color: #fbfbfb;
 }
 
 @media only screen and (min-width: 768px) {
