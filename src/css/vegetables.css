@@ -5,11 +5,12 @@
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  padding: 80px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.section-vegetables {
-  background: #7a3145;
+.second-accent-color {
+  background-color: #7a3145;
 }
 
 .header-vegetables {
@@ -19,6 +20,7 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  margin-bottom: 20px;
 }
 
 .span-vegetables {
@@ -30,7 +32,6 @@
   font-size: 14px;
   line-height: 129%;
   color: #fbfbfb;
-  margin-top: 20px;
   margin-bottom: 40px;
 }
 
@@ -43,8 +44,7 @@
 .card-vegetables {
   border-radius: 40px;
   padding: 32px 26px;
-  width: 334px;
-  height: 379px;
+  width: 100%;
   background: #fbfbfb;
 }
 
@@ -54,16 +54,17 @@
   line-height: 100%;
   letter-spacing: -0.01em;
   color: #7a3145;
+  margin-bottom: 12px;
 }
 
-.card-vegetable-description {
+.card-vegetables-description {
   font-weight: 600;
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
-  margin-top: 12px;
+  margin-bottom: 14px;
 }
 
 /* Styles for Tablet devices */
@@ -74,26 +75,20 @@
     padding-right: 32px;
   }
 
-  .section-vegetable {
-    padding: 100px 32px;
-  }
-
   .header-vegetables {
-    font-weight: 600;
     font-size: 64px;
     line-height: 100%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    display: flex;
-    flex-direction: column;
+    max-width: 508px;
   }
 
   .description-vegetables {
     font-size: 16px;
     width: 626px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    line-height: 125%;
   }
 
   .card-list-vegetables {
@@ -101,17 +96,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 28px;
-    column-gap: 20px;
   }
 
   .card-vegetables {
     padding: 32px 30px;
-    width: 342px;
-    height: 379px;
+    width: calc((100% - 20px) / 2);
   }
 
   .card-vegetables-name {
     font-size: 32px;
+  }
+
+  .card-vegetables-description {
+    margin-bottom: 10px;
   }
 }
 
@@ -119,7 +116,8 @@
 @media only screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .description-vegetables {
@@ -137,7 +135,6 @@
 
   .card-vegetables {
     padding: 32px;
-    width: 346px;
-    height: 379px;
+    width: calc((100% - 40px) / 3);
   }
 }
