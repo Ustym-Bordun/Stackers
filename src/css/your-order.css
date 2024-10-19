@@ -82,6 +82,7 @@
   padding: 40px 20px;
   background-color: #fbfbfb;
   flex-shrink: 0;
+  position: relative;
 }
 
 @media only screen and (min-width: 768px) {
@@ -263,4 +264,48 @@
   .your-order-linkform-block-list li:not(:last-child)::after {
     margin: 0px 12px;
   }
+}
+
+.your-order-linkform-block-list li a {
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.your-order-linkform-block-list li a:hover {
+  transform: scale(1.07);
+}
+
+.overlay-message-call-back {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fbfbfb;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  padding: 50px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease, visibility 0.55s ease;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .overlay-message-call-back {
+    font-size: 48px;
+  }
+}
+
+.hidden-call-back {
+  opacity: 1;
+  visibility: visible;
 }
