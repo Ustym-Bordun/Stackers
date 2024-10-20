@@ -49,6 +49,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-bottom: 20px;
 }
 
 .your-order-orderform-block-form input,
@@ -91,8 +92,12 @@
   line-height: 1.29;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  margin-top: 5px;
   outline: none;
+  width: 100%;
+  transition: background-color 0.45s ease;
+}
+.your-order-orderform-block-form-button:hover {
+  background-color: rgb(71, 91, 44);
 }
 .your-order-linkform-block {
   border-radius: 30px;
@@ -207,8 +212,10 @@
     font-size: 16px;
     line-height: 1.25;
   }
+  .your-order-orderform-block-form {
+    margin-bottom: 25px;
+  }
   .your-order-orderform-block-form-button {
-    margin-top: 10px;
     font-size: 18px;
     line-height: 1.11;
   }
