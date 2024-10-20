@@ -62,16 +62,14 @@
 
 .your-order-orderform-block-form input {
   border: 1px solid rgba(20, 20, 20, 0.2);
-  padding: 14px 16px 14px 16px;
+  padding-left: 16px;
   border-radius: 30px;
-  width: auto;
   height: 46px;
 }
 .your-order-orderform-block-form textarea {
   border: 1px solid rgba(20, 20, 20, 0.2);
   padding: 14px 16px 14px 16px;
   border-radius: 15px;
-  width: auto;
   height: 91px;
 }
 .your-order-orderform-block-form input:focus,
@@ -240,6 +238,13 @@
   }
   .overlay-message-call-back {
     font-size: 48px;
+  }
+  .your-order-orderform-block-form input {
+    height: 52px;
+  }
+  .your-order-orderform-block-form textarea {
+    padding: 16px 16px 14px 16px;
+    height: 95px;
   }
 }
 
