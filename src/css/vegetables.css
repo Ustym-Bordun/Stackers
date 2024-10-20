@@ -86,11 +86,6 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-  .description-vegetables {
-    margin-bottom: 50px;
-    margin-top: 25px;
-  }
-
   .card-list-vegetables {
     column-gap: 21px;
   }
