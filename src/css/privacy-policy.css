@@ -78,3 +78,29 @@
   line-height: 129%;
   color: #fbfbfb;
 }
+
+/* ------------------- Tablet --------------------- */
+
+@media screen and (min-width: 768px) {
+  .section-privacy-policy {
+    flex-direction: column;
+  }
+
+  .section-collecting-data {
+    display: block;
+  }
+
+  .container-privacy-policy {
+    flex-direction: column;
+    /* margin: 0; */
+  }
+
+  .privacy-policy-name-block {
+    padding-top: 24px;
+  }
+
+  .cookie-item-privacy-policy {
+    flex-direction: column;
+    margin: 0;
+  }
+}
