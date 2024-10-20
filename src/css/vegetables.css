@@ -54,9 +54,8 @@
 @media only screen and (min-width: 768px) {
   .header-vegetables {
     font-size: 64px;
-    line-height: 100%;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
+    line-height: 1;
+
     max-width: 508px;
   }
 
@@ -93,11 +92,7 @@
   }
 
   .card-list-vegetables {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     column-gap: 21px;
-    row-gap: 28px;
   }
 
   .card-vegetables {
