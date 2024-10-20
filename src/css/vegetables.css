@@ -68,7 +68,6 @@
   }
 
   .card-list-vegetables {
-    display: flex;
     row-gap: 28px;
   }
 
