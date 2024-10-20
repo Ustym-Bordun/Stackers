@@ -19,47 +19,6 @@
   max-width: 375px;
 }
 
-/* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
-  .container-footer {
-    max-width: 768px;
-  }
-  .footer-bottom {
-    max-width: 768px;
-    padding-top: 100px;
-  }
-  .footer {
-    padding: 32px 32px;
-    height: 479px;
-  }
-  .footer-block {
-    width: 215px;
-    height: 295px;
-    align-content: space-between;
-    display: grid;
-  }
-}
-/* Styles for Desktop devices */
-@media only screen and (min-width: 1280px) {
-  .container-footer {
-    max-width: 1080px;
-  }
-  .footer-bottom {
-    max-width: 1080px;
-    padding-top: 125px;
-  }
-  .footer-block {
-    width: 513px;
-    height: 146px;
-    display: block;
-  }
-  .footer {
-    padding: 50px 100px 50px 100px;
-    min-height: 479px;
-    min-width: 768px;
-  }
-}
-
 .footer-left {
   max-width: 265px;
   max-height: 103px;
@@ -139,4 +98,99 @@
 
   color: #fbfbfb80;
   float: right;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container-footer {
+    max-width: 768px;
+  }
+  .footer-bottom {
+    max-width: 768px;
+    padding-top: 100px;
+  }
+  .footer {
+    padding: 32px 32px;
+    height: 479px;
+  }
+  .footer-block {
+    width: 215px;
+    height: 295px;
+    align-content: space-between;
+    display: grid;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .container-footer {
+    max-width: 1080px;
+  }
+  .footer-bottom {
+    max-width: 1080px;
+    padding-top: 125px;
+  }
+  .footer-block {
+    width: 513px;
+    height: 146px;
+    display: block;
+  }
+  .footer {
+    padding: 50px 100px 50px 100px;
+    min-height: 479px;
+    min-width: 768px;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 767px) {
+  .container-footer {
+    max-width: 375px;
+    align-content: space-between;
+    display: grid;
+  }
+  .footer-bottom {
+    max-width: 335px;
+    padding-top: 80px;
+  }
+  .footer {
+    padding: 40px 20px 40px 20px;
+    height: 520px;
+  }
+  .footer-block {
+    width: 215px;
+    height: 295px;
+    align-content: space-between;
+    display: grid;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+  }
+  .footer-left h2 {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+
+  .footer-left p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+
+  .footer-right ul li {
+    margin-bottom: 14px;
+  }
+
+  .footer-right ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .footer-contact {
+    font-size: 14px;
+    text-align: left;
+  }
 }
