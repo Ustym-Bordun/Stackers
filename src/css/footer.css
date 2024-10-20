@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .footer {
   background-color: #7a3145; /* Burgundy color */
   color: #fbfbfb;
@@ -6,7 +10,9 @@
   height: 391px;
   font-family: 'Inter Tight';
 }
-
+.logo-footer {
+  fill: #fbfbfb;
+}
 .container-footer {
   display: flex;
   justify-content: space-between;
@@ -32,6 +38,7 @@
 .footer-left p {
   font-size: 16px;
   line-height: 1.6;
+  padding-top: 25px;
 }
 
 .footer-right {
@@ -84,6 +91,7 @@
   text-align: center;
   margin: auto;
   max-height: 20px;
+  box-sizing: border-box;
 }
 
 .footer-bottom a {
