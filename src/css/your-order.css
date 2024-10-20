@@ -96,7 +96,7 @@
   outline: none;
   width: 100%;
   border: none;
-  transition: background-color 0.45s ease;
+  transition: background-color 250ms ease;
 }
 .your-order-orderform-block-form-button:hover {
   background-color: rgb(71, 91, 44);
@@ -151,7 +151,7 @@
 
 .your-order-linkform-block-list li a {
   display: inline-block;
-  transition: transform 0.5s ease;
+  transition: transform 500ms ease;
 }
 
 .your-order-linkform-block-list li a:hover {
@@ -178,7 +178,7 @@
   padding: 50px;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.15s ease, visibility 0.55s ease;
+  transition: opacity 150ms ease, visibility 550ms ease;
 }
 
 .hidden-call-back {
