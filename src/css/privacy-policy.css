@@ -1,0 +1,80 @@
+.section-privacy-policy {
+  background-color: #576f35;
+  padding: 80px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.section-collecting-data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.container-privacy-policy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.list-privacy-policy {
+  padding-left: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.list-privacy-policy li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.list-privacy-policy li::before {
+  content: '●';
+  position: absolute;
+  left: 0;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.list-style-privacy-policy {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
+.item-privacy-policy {
+  font-size: 14px;
+  line-height: 129%;
+  color: #fbfbfb;
+  padding-bottom: 8px;
+}
+
+.link-privacy-policy {
+  text-decoration: underline;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.personal-data-list {
+  display: block;
+}
+
+.cookie-item-privacy-policy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+
+.text-privacy-policy {
+  font-size: 14px;
+  line-height: 129%;
+  color: #fbfbfb;
+}
+
+.link-contact-us {
+  font-size: 14px;
+  line-height: 129%;
+  color: #fbfbfb;
+}
