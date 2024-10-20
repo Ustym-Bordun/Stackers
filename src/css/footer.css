@@ -156,7 +156,7 @@
   }
   .footer-bottom {
     max-width: 335px;
-    padding-top: 80px;
+    margin-top: 80px;
   }
   .footer {
     padding: 40px 20px 40px 20px;
@@ -164,9 +164,10 @@
   }
   .footer-block {
     width: 215px;
-    height: 295px;
+    height: 220px;
     align-content: space-between;
     display: grid;
+    margin-top: 50px;
   }
   .footer-bottom p {
     font-size: 12px;
@@ -179,13 +180,12 @@
   .footer-left p {
     font-size: 14px;
     line-height: 1.6;
-    padding-bottom: 40px;
+
+    padding-top: 14px;
   }
   .footer-right ul {
     list-style-type: none;
     padding: 0;
-    margin: 0 0 20px 0;
-    padding-top: 40px;
   }
 
   .footer-right ul li {
@@ -201,5 +201,21 @@
   .footer-contact {
     font-size: 14px;
     text-align: left;
+  }
+  #number_phone {
+    margin-bottom: 14px;
+  }
+  .footer-bottom a {
+    color: #fbfbfb80;
+    text-decoration: none;
+    font-size: 14px;
+    float: left;
+  }
+  .footer-left {
+    max-width: 296px;
+    max-height: 84px;
+  }
+  .footer-contact p {
+    margin: 0px 0;
   }
 }
