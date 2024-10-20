@@ -1,95 +1,81 @@
 .container-advertisement {
   padding-left: 10px;
-  padding-right: 0;
-  min-width: 355px;
+  padding-right: 10px;
 }
 
-
-
-.green-background {
-  display: flex;
+.advertisement-text {
   font-weight: 600;
   font-size: 48px;
   line-height: 1.04;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
+}
+
+.advertisement-text-first-part {
+  display: block;
 
   border-radius: 12px;
-  width: 355px;
-  height: 102px;
-  background: #576f35;
-
-  padding-left: 10px;
-  padding-top: 3px;
-  margin-bottom: 10px;
-
+  padding: 1px 10px;
 }
 
-.white-background {
-  display: flex;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 1.04;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #141414;
+.advertisement-text-second-part {
+  display: block;
 
   padding-left: 10px;
-  
+  padding-right: 10px;
+  transform: translateY(-1px);
+
 }
 
 @media only screen and (min-width: 768px) {
+  .container-advertisement {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 
-.container-advertisement {
-  padding-left: 16px;
-  padding-right: 16px;
-}
+  .advertisement-text {
+    font-size: 64px;
+    line-height: 1.09;
+  }
 
+  .advertisement-text-first-part {
+    min-width: 736px;
+    padding: 8px 16px;
+  }
 
-.green-background {
-  font-size: 64px;
-  line-height: 1.09;
-  width: 736px;
-  height: 86px;
-  padding-left: 16px;
-  padding-top: 8px;
-  margin-bottom: 0;
-}
-
-.white-background {
-  font-size: 64px;
-  line-height: 1.09;
-  padding-left: 16px;
-}
+  .advertisement-text-second-part {
+    padding-left: 16px;
+    padding-right: 16px;
+    transform: translateY(-8px);
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-
-.container-advertisement {
-    max-width: 1080px;
-    padding-left: 13px;
+  .container-advertisement {
+    padding-right: 113px;
+    padding-left: 113px;
   }
 
-.advertisement-text {
-  padding-left: 13px;
-}
+  .advertisement-text {
+    font-size: 76px;
+    line-height: 1.05;
+  }
 
-.green-background {
-  display: inline-flex;
-  font-size: 76px;
-  line-height: 1.05;
-  width: 808px;
-  padding-left: 13px;
-  
-}
+  .advertisement-text-first-part {
+    display: inline-flex;
+    align-items: center;
 
-.white-background {
-  display: inline;
-  font-size: 76px;
-  line-height: 1.05;
-  padding-left: 0;
-  padding-right: 13px;
-}
+    padding: 0;
+    padding-left: 13px;
+    margin-left: -13px;
+    min-width: 808px;
+    min-height: 86px;
+  }
 
+  .advertisement-text-second-part {
+    display: inline;
+    padding: 0;
+    margin-left: -13px;
+    transform: translateY(0);
+  }
 }
