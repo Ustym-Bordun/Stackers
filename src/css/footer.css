@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .footer {
   background-color: #7a3145; /* Burgundy color */
   color: #fbfbfb;
@@ -6,7 +10,9 @@
   height: 391px;
   font-family: 'Inter Tight';
 }
-
+.logo-footer {
+  fill: #fbfbfb;
+}
 .container-footer {
   display: flex;
   justify-content: space-between;
@@ -32,6 +38,7 @@
 .footer-left p {
   font-size: 16px;
   line-height: 1.6;
+  padding-top: 25px;
 }
 
 .footer-right {
@@ -84,6 +91,7 @@
   text-align: center;
   margin: auto;
   max-height: 20px;
+  box-sizing: border-box;
 }
 
 .footer-bottom a {
@@ -95,7 +103,6 @@
 
 .footer-bottom p {
   font-size: 18px;
-
   color: #fbfbfb80;
   float: right;
 }
@@ -103,11 +110,11 @@
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container-footer {
-    max-width: 768px;
+    min-width: 768px;
   }
   .footer-bottom {
-    max-width: 768px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 125px;
   }
   .footer {
     padding: 32px 32px;
@@ -149,7 +156,7 @@
   }
   .footer-bottom {
     max-width: 335px;
-    padding-top: 80px;
+    margin-top: 80px;
   }
   .footer {
     padding: 40px 20px 40px 20px;
@@ -157,9 +164,10 @@
   }
   .footer-block {
     width: 215px;
-    height: 295px;
+    height: 220px;
     align-content: space-between;
     display: grid;
+    margin-top: 50px;
   }
   .footer-bottom p {
     font-size: 12px;
@@ -172,11 +180,12 @@
   .footer-left p {
     font-size: 14px;
     line-height: 1.6;
+
+    padding-top: 14px;
   }
   .footer-right ul {
     list-style-type: none;
     padding: 0;
-    margin: 0 0 20px 0;
   }
 
   .footer-right ul li {
@@ -192,5 +201,21 @@
   .footer-contact {
     font-size: 14px;
     text-align: left;
+  }
+  #number_phone {
+    margin-bottom: 14px;
+  }
+  .footer-bottom a {
+    color: #fbfbfb80;
+    text-decoration: none;
+    font-size: 14px;
+    float: left;
+  }
+  .footer-left {
+    max-width: 296px;
+    max-height: 84px;
+  }
+  .footer-contact p {
+    margin: 0px 0;
   }
 }
