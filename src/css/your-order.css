@@ -32,7 +32,6 @@
   border-radius: 30px;
   padding: 40px 20px;
   background-color: #fbfbfb;
-  flex-shrink: 0;
   position: relative;
 }
 
@@ -58,6 +57,7 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  outline: none;
 }
 
 .your-order-orderform-block-form input {
@@ -74,7 +74,8 @@
   width: auto;
   height: 91px;
 }
-.your-order-orderform-block-form input:focus {
+.your-order-orderform-block-form input:focus,
+.your-order-orderform-block-form textarea:focus {
   border: 1px solid #7a3145;
 }
 .your-order-orderform-block-form input:not(:placeholder-shown):invalid {
@@ -94,6 +95,7 @@
   text-transform: uppercase;
   outline: none;
   width: 100%;
+  border: none;
   transition: background-color 0.45s ease;
 }
 .your-order-orderform-block-form-button:hover {
