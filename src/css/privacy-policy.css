@@ -79,6 +79,23 @@
   color: #fbfbfb;
 }
 
+.btn-privacy-policy {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 129%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #000;
+
+  border-radius: 30px;
+  padding: 16px 129px;
+  width: 295px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
 /* ------------------- Tablet --------------------- */
 
 @media screen and (min-width: 768px) {
@@ -102,5 +119,13 @@
   .cookie-item-privacy-policy {
     flex-direction: column;
     margin: 0;
+  }
+}
+
+/* ------------------- Desctop ------------------------ */
+
+@media only screen and (min-width: 1280px) {
+  .list-privacy-policy {
+    flex-direction: column;
   }
 }
