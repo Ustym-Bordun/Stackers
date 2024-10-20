@@ -1,0 +1,89 @@
+.section-how-it-works {
+  counter-reset: section-counter;
+}
+.how-it-works-pinkdiv {
+  flex: 1;
+  background-color: #7a3145;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.how-it-works-greendiv {
+  flex: 1;
+  background-color: #576f35;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+.how-it-works-img {
+  width: 335px;
+  padding: 40px 20px;
+  border-radius: 30px;
+}
+.how-it-works-span {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: rgba(251, 251, 251, 0.3);
+}
+.how-it-works-main-text {
+  padding-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fbfbfb;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.how-it-works-text {
+  padding-bottom: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  text-align: left;
+  color: #fbfbfb;
+}
+.how-it-works-list {
+  list-style: none;
+}
+.how-it-works-item {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-counter .how-it-works-number::before {
+  counter-increment: section-counter;
+  content: counter(section-counter) '';
+}
+.how-it-works-item .how-it-works-number {
+  content: counter(card-counter);
+  background-color: #7a3145;
+  color: #fbfbfb;
+  margin-right: 24px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 100%;
+  border-width: 5px;
+  border-color: #e7bdff;
+  border-style: solid;
+}
+@media screen and (min-width: 768px) {
+  /* .how-it-works-div {
+    width: 450px;
+  }
+    .how-it-works-img {
+    width: 640px;
+}*/
+}
