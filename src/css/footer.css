@@ -189,6 +189,10 @@
   .container-footer {
     min-width: 768px;
   }
+  .logo-footer {
+    width: 168px;
+    height: 15px;
+  }
   .footer-bottom {
     padding-bottom: 50px;
     padding-top: 125px;
@@ -208,6 +212,10 @@
 @media only screen and (min-width: 1280px) {
   .container-footer {
     max-width: 1080px;
+  }
+  .logo-footer {
+    width: 168px;
+    height: 15px;
   }
   .footer-bottom {
     max-width: 1080px;
