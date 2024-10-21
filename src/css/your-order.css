@@ -51,6 +51,10 @@
   margin-bottom: 20px;
 }
 
+.your-order-orderform-block-form textarea {
+  margin-bottom: 20px;
+}
+
 .your-order-orderform-block-form input,
 .your-order-orderform-block-form textarea {
   font-weight: 500;
@@ -217,7 +221,7 @@
     font-size: 16px;
     line-height: 1.25;
   }
-  .your-order-orderform-block-form {
+  .your-order-orderform-block-form textarea {
     margin-bottom: 25px;
   }
   .your-order-orderform-block-form-button {
