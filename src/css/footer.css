@@ -83,8 +83,7 @@
 }
 
 .footer-contact a {
-  color: white;
-  text-decoration: none;
+  color: #fbfbfb;
 }
 
 .footer-bottom {
@@ -113,9 +112,16 @@
     align-content: space-between;
     display: grid;
   }
+  .logo-footer {
+    width: 146px;
+    height: 12px;
+  }
   .footer-bottom {
     max-width: 335px;
     margin-top: 80px;
+    font-weight: 500px;
+    font-size: 12px;
+    letter-spacing: -1.5%;
   }
   .footer {
     padding: 40px 20px 40px 20px;
