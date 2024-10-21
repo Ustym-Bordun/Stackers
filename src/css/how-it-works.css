@@ -1,24 +1,22 @@
 .section-how-it-works {
   counter-reset: section-counter;
-}
-.how-it-works-pinkdiv {
-  flex: 1;
   background-color: #7a3145;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(#7a3145 50%, #576f35 50%);
+  padding-top: 40px;
 }
 .how-it-works-greendiv {
   flex: 1;
-  background-color: #576f35;
   display: block;
   justify-content: center;
   align-items: center;
-  padding: 80px 20px;
+  padding-top: 80px;
 }
 .how-it-works-img {
   width: 335px;
-  padding: 40px 20px;
+  padding-bottom: 40px;
   border-radius: 30px;
 }
 .how-it-works-span {
@@ -28,6 +26,15 @@
   letter-spacing: -0.015em;
   text-align: left;
   color: rgba(251, 251, 251, 0.3);
+}
+.hiw-text {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  width: 208px;
 }
 .how-it-works-main-text {
   padding-bottom: 20px;
@@ -79,11 +86,52 @@
   border-color: #e7bdff;
   border-style: solid;
 }
+.bold-text {
+  font-weight: 700;
+  color: #141414;
+}
 @media screen and (min-width: 768px) {
-  /* .how-it-works-div {
-    width: 450px;
+  .section-how-it-works {
+    max-width: 768px;
   }
-    .how-it-works-img {
-    width: 640px;
-}*/
+  .how-it-works-img {
+    display: block;
+    margin: 0 auto;
+  }
+  .how-it-works-div {
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+  }
+  .how-it-works-main-text {
+    font-size: 32px;
+  }
+  .how-it-works-span {
+    font-size: 32px;
+  }
+  .how-it-works-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .hiw-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 325px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+  }
+  .section-how-it-works {
+    max-width: 1280px;
+    background-color: #7a3145;
+  }
+  .how-it-works-greendiv {
+    background-color: #576f35;
+    width: 50%;
+  }
+  .how-it-works-pinkdiv {
+    width: 50%;
+  }
 }
