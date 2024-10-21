@@ -53,6 +53,7 @@
 
 .your-order-orderform-block-form textarea {
   margin-bottom: 20px;
+  resize: none;
 }
 
 .your-order-orderform-block-form input,
