@@ -125,23 +125,25 @@
 }
 
 .your-order-linkform-block-list li {
-  display: inline;
+  display: inline-block;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.08;
   letter-spacing: -0.01em;
-}
-
-.your-order-linkform-block-list li {
   margin: 8px 0px;
 }
-
+.your-order-linkform-block-list li:not(:last-child) {
+  margin-bottom: 8px;
+}
 .your-order-linkform-block-list li:not(:last-child)::after {
   content: '/';
   margin: 0px 8px;
 }
 
 @media only screen and (min-width: 768px) {
+  .your-order-linkform-block-list li:not(:last-child) {
+    margin-bottom: 0;
+  }
   .your-order-linkform-block-list li:not(:last-child)::after {
     margin: 0px 12px;
   }
@@ -258,6 +260,7 @@
 
   .your-order-form-link-block {
     flex-direction: row;
+    align-items: stretch;
     gap: 24px;
   }
 
@@ -272,5 +275,8 @@
 
   .your-order-linkform-block-image {
     width: 427px;
+  }
+  .your-order-linkform-block-list li:not(:last-child) {
+    margin-bottom: 12px;
   }
 }
