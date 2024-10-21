@@ -19,7 +19,11 @@
   align-items: flex-start;
   margin: auto;
 }
-
+.text.footer {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fbfbfb;
+}
 .container-footer {
   min-width: 320px;
   max-width: 375px;
@@ -183,6 +187,12 @@
   .footer-contact p {
     margin: 0px 0;
   }
+
+  .text.footer {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fbfbfb;
+  }
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
@@ -218,7 +228,8 @@
     height: 15px;
   }
   .footer-bottom {
-    max-width: 1080px;
+    max-width: 704px;
+    height: 20px;
     padding-top: 125px;
   }
   .footer-block {
