@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/stackers/",
+    "build": "vite build --base=/stackersq/",
     "preview": "vite preview"
   },
   "devDependencies": {

@@ -154,8 +154,8 @@
     padding-bottom: 100px;
   }
 }
-/* --/TABLET-- */
-/* --DESKTOP-- */
+/* -- /TABLET-- */
+/* -- DESKTOP-- */
 @media screen and (min-width: 1280px) {
   .section-how-it-works {
     display: flex;
