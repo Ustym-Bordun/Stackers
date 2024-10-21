@@ -25,6 +25,8 @@
     background: none;
     border: none;
     cursor: pointer;
+    width:32px;
+    height:32px;
   }
   
   .mobile-menu-menu-links {
@@ -83,5 +85,9 @@
     left: auto;
     right: 0;
     width: 351px;
+  }
+  .close-button-mobile-menu {
+    top: 32px;
+    right: 32px;
   }
 }
