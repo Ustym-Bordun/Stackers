@@ -1,6 +1,6 @@
 const closeButton = document.querySelector('.close-button-mobile-menu');
 const mobileMenu = document.querySelector('.container-mobile-menu');
-const burgerMenuButton = document.querySelector('.burger-menu');
+const burgerMenuButton = document.querySelector('.header-burger-btn');
 
 closeButton.addEventListener('click', () => {
   mobileMenu.style.visibility = 'hidden';
