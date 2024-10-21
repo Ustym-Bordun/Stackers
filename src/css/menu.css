@@ -90,3 +90,8 @@
     right: 32px;
   }
 }
+@media (min-width: 1280px) {
+  .container-mobile-menu {
+    display: none;
+  }
+}
