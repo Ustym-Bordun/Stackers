@@ -160,6 +160,7 @@
 
 .your-order-linkform-block-list li a {
   display: inline-block;
+  outline: none;
   transition: transform 500ms ease;
 }
 
