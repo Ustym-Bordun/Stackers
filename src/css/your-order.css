@@ -101,7 +101,8 @@
   border: none;
   transition: background-color 250ms ease;
 }
-.your-order-orderform-block-form-button:hover {
+.your-order-orderform-block-form-button:hover,
+.your-order-orderform-block-form-button:focus {
   background-color: rgb(71, 91, 44);
 }
 .your-order-linkform-block {
@@ -162,7 +163,8 @@
   transition: transform 500ms ease;
 }
 
-.your-order-linkform-block-list li a:hover {
+.your-order-linkform-block-list li a:hover,
+.your-order-linkform-block-list li a:focus {
   transform: scale(1.07);
 }
 
