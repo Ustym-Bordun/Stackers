@@ -1,4 +1,4 @@
-(() => {
+document.addEventListener('DOMContentLoaded', () => {
   const refs = {
     // Додати атрибут data-menu-open на кнопку відкриття
     openModalBtn: document.querySelector('[data-menu-open]'),
@@ -15,4 +15,4 @@
     // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
     refs.modal.classList.toggle('is-open');
   }
-})();
+});
