@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const overlayMenu = document.querySelector('.overlay-container-mobile-menu');
   const menuLinks = document.querySelectorAll('.mobile-menu-menu-links a');
   const shopNowButton = document.querySelector('.mobile-menu-shop-now-button');
+  const headerShopNowButton = document.querySelector('.header-menu-btn');
 
   closeButton.addEventListener('click', () => {
     overlayMenu.classList.remove('is-open');
@@ -19,11 +20,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  shopNowButton.addEventListener('click', () => {
+  const scrollToOrderSection = () => {
     const orderSection = document.querySelector('#order');
     orderSection.scrollIntoView({ behavior: 'smooth' });
     overlayMenu.classList.remove('is-open');
-  });
+  };
+
+  shopNowButton.addEventListener('click', scrollToOrderSection);
+  headerShopNowButton.addEventListener('click', scrollToOrderSection);
 
   menuLinks.forEach(link => {
     link.addEventListener('click', () => {
