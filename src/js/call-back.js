@@ -1,13 +1,17 @@
-document.querySelector('.your-order-orderform-block-form').addEventListener('submit', function(event) {
-    event.preventDefault();
+document.addEventListener('DOMContentLoaded', function () {
+  document
+    .querySelector('.your-order-orderform-block-form')
+    .addEventListener('submit', function (event) {
+      event.preventDefault();
 
-    var overlay = document.getElementById('overlay-message-call-back');
-    overlay.classList.add('hidden-call-back');
+      var overlay = document.getElementById('overlay-message-call-back');
+      overlay.classList.add('hidden-call-back');
 
-    var form = event.target;
-    form.reset();
+      var form = event.target;
+      form.reset();
 
-    setTimeout(function() {
+      setTimeout(function () {
         overlay.classList.remove('hidden-call-back');
-    }, 2600);
+      }, 2600);
+    });
 });

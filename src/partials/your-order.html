@@ -1,4 +1,4 @@
-<section class="section second-accent-bg-color">
+<section class="section second-accent-bg-color" id="order">
   <div class="container">
     <h2 class="your-order-text-block-header second-main-color">
       Fresh<span class="your-order-text-block-highlight"> Harvest </span>Box has
@@ -19,6 +19,7 @@
         </h3>
         <form class="your-order-orderform-block-form">
           <input
+            aria-label="Full Name"
             type="text"
             name="name"
             placeholder="Full Name"
@@ -26,25 +27,21 @@
             pattern="[A-Za-z ]+"
           />
           <input
+            aria-label="Email"
             type="email"
             name="email"
             placeholder="Email"
             required
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            pattern="([A-Za-z0-9_.-]+)@([A-Za-z0-9_.-]+)\.([A-Za-z]{2,8})"
           />
-          <textarea
-            name="comment"
-            placeholder="Comment"
+          <textarea name="comment" placeholder="Comment"></textarea>
+          <button
             type="submit"
-          ></textarea>
+            class="your-order-orderform-block-form-button second-main-color accent-bg-color"
+          >
+            SEND
+          </button>
         </form>
-        <button
-          button
-          type="submit"
-          class="your-order-orderform-block-form-button second-main-color accent-bg-color"
-        >
-          SEND
-        </button>
         <div class="overlay-message-call-back" id="overlay-message-call-back">
           <h3>
             WE <span class="second-accent-color">WILL</span><br />

@@ -51,6 +51,11 @@
   margin-bottom: 20px;
 }
 
+.your-order-orderform-block-form textarea {
+  margin-bottom: 20px;
+  resize: none;
+}
+
 .your-order-orderform-block-form input,
 .your-order-orderform-block-form textarea {
   font-weight: 500;
@@ -96,7 +101,8 @@
   border: none;
   transition: background-color 250ms ease;
 }
-.your-order-orderform-block-form-button:hover {
+.your-order-orderform-block-form-button:hover,
+.your-order-orderform-block-form-button:focus {
   background-color: rgb(71, 91, 44);
 }
 .your-order-linkform-block {
@@ -154,10 +160,12 @@
 
 .your-order-linkform-block-list li a {
   display: inline-block;
+  outline: none;
   transition: transform 500ms ease;
 }
 
-.your-order-linkform-block-list li a:hover {
+.your-order-linkform-block-list li a:hover,
+.your-order-linkform-block-list li a:focus {
   transform: scale(1.07);
 }
 
@@ -217,7 +225,7 @@
     font-size: 16px;
     line-height: 1.25;
   }
-  .your-order-orderform-block-form {
+  .your-order-orderform-block-form textarea {
     margin-bottom: 25px;
   }
   .your-order-orderform-block-form-button {
