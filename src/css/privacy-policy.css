@@ -39,6 +39,7 @@
   border-radius: 16px;
 
   height: 600px;
+  max-width: 768px;
 
   overflow-x: hidden;
   overflow-y: scroll;
