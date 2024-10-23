@@ -9,12 +9,21 @@
   height: 100%;
 
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 24px;
 
+  /* opacity: 0; */
+  /* visibility: hidden; */
+
   background-color: rgb(0, 0, 0, 0.5);
-  overflow-y: auto;
   z-index: 10000;
+}
+
+.modal-privacy-policy.is-open {
+  opacity: 1;
+  visibility: visible;
 }
 
 .modal-container-privacy-policy {
@@ -22,11 +31,17 @@
 
   background-color: #576f35;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
   gap: 24px;
   padding: 80px 20px;
   margin: auto;
   border-radius: 16px;
+
+  height: 600px;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .list-privacy-policy {
